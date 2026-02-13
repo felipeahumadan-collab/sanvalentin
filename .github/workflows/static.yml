@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Valentines Day</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<audio id="backgroundAudio" autoplay loop src="audio/both-male-female-audio.mp3"></audio>
+
+<div class="drawBox" onclick="playAudio()">
+
+  <!-- Corazones pequeños -->
+  <div class="smallHearts">
+    <div class="smallHeart"></div>
+    <div class="smallHeart"></div>
+    <div class="smallHeart"></div>
+    <div class="smallHeart"></div>
+    <div class="smallHeart"></div>
+    <div class="smallHeart"></div>
+    <div class="smallHeart"></div>
+    <div class="smallHeart"></div>
+    <div class="smallHeart"></div>
+    <div class="smallHeart"></div>
+    <div class="smallHeart"></div>
+    <div class="smallHeart"></div>
+    <div class="smallHeart"></div>
+  </div>
+
+  <!-- Corazón principal -->
+  <div class="mainHeart">
+    <!-- PEGA AQUÍ TU SVG COMPLETO -->
+  </div>
+
+</div>
+
+<script>
+function playAudio() {
+  document.getElementById("backgroundAudio").play();
+}
+</script>
+
+</body>
+</html>
